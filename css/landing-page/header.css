@@ -5,6 +5,7 @@ header {
     padding: 30px 20px;
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 header:after {

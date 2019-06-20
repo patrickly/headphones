@@ -1,4 +1,5 @@
 #top-jumbo {
+    padding: 0 0 400px;
     background: #ffffff;
     /* Old browsers */
     background: -moz-linear-gradient(-45deg, #ffffff 21%, #ffffff 29%, #ffffff 36%, #5027f4 75%, #e499f7 100%);
@@ -20,6 +21,24 @@
     display: inline-block;
     float: left;
 }
+
+#top-jumbo .left-side .large-number {
+    font-size: 300px;
+    font-weight: 700;
+    opacity: 0.1;
+    color: #4C44C1;
+    position: relative;
+    left: -26px;
+    top: 100px;
+    z-index: 1;
+}
+
+#top-jumbo .left-side .info-container h1 {
+    font-size: 4.5rem;
+    color: #4C44C1;
+    text-transform: uppercase;
+}
+
 
 #top-jumbo .right-side {
     width: 65%;
