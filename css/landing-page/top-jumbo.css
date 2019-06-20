@@ -1,0 +1,33 @@
+#top-jumbo {
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 21%, #ffffff 29%, #ffffff 36%, #5027f4 75%, #e499f7 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 21%, #ffffff 29%, #ffffff 36%, #5027f4 75%, #e499f7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 21%, #ffffff 29%, #ffffff 36%, #5027f4 75%, #e499f7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#top-jumbo .left-side {
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+
+#top-jumbo .right-side {
+    width: 65%;
+    display: inline-block;
+    float: left;
+
+}
+
+#top-jumbo .right-side img {
+    width: 100%;
+}
