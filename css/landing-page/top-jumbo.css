@@ -38,7 +38,7 @@
 }
 
 #top-jumbo .left-side {
-  width: 35%;
+  width: 40%;
   display: inline-block;
   float: left;
 }
@@ -50,21 +50,31 @@
   color: #4c44c1;
   position: relative;
   left: -26px;
-  top: 100px;
+  top: 40px;
   z-index: 1;
+}
+
+#top-jumbo .left-side .info-container {
+  position: relative;
+  top: -50px;
+  background: red;
 }
 
 #top-jumbo .left-side .info-container h1 {
   font-size: 4.5rem;
   color: #4c44c1;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+#top-jumbo .left-side .info-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #aaacaf;
   text-transform: uppercase;
 }
 
-#top-jumbo .left-side .info-container p {
-}
-
 #top-jumbo .right-side {
-  width: 65%;
+  width: 60%;
   display: inline-block;
   float: left;
 }
