@@ -47,17 +47,13 @@ header .header-buttons {
 }
 
 header .header-buttons .blue-btn {
-    background: #4C44C1;
+    background: #6066F2;
     padding: 14px 46px;
     color: white;
     border-radius: 35px;
     text-transform: uppercase;
     position: relative;
     top: 11px;
-    -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
-
 }
 
 header .header-buttons .blue-btn .fas {
@@ -72,7 +68,4 @@ header .header-buttons .orange-btn {
     text-transform: uppercase;
     position: relative;
     top: 11px;
-    -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
 }

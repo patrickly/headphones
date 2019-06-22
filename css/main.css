@@ -16,3 +16,9 @@ E6CDF9 light purple
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.box-shadow-default {
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
