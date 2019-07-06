@@ -1,0 +1,66 @@
+#design-by {
+    position: relative;
+    top: -100px;
+}
+
+#design-by .design-container {
+    /* position: absolute; */
+}
+
+#design-by .design-container .info-section {
+    background: #6066F2;
+    width: 40%;
+    display: inline-block;
+    float: left;
+    padding: 45px;
+}
+
+#design-by .design-container .info-section h5 {
+    color: #FEA83B;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#design-by .design-container .info-section h3 {
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+}
+
+#design-by .design-container .info-section .info-list {
+
+}
+
+#design-by .design-container .info-section .info-list li {
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+
+#design-by .design-container .info-section .info-list li .circle {
+    background: #FEA83B;
+    display: inline-block;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    position: relative;
+    top: 7px;
+}
+
+#design-by .design-container .info-section .info-list li .circle .fas{
+    position: absolute;
+    top: 3px;
+
+}
+
+#design-by .design-container .icons-section {
+    width: 60%;
+    background: white;
+    display: inline-block;
+    float: left;
+}
