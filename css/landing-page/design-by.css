@@ -1,12 +1,13 @@
 #design-by {
     position: relative;
-    top: -100px;
+    top: -200px;
 }
 
 #design-by .design-container {
     background: white;
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 #design-by .design-container .bg-container{
@@ -24,10 +25,11 @@
 
 #design-by .design-container .bg-image {
     position: absolute;
-    width: 500px;
+    width: 600px;
     z-index: 1;
     opacity: .3;
-    right: 0;
+    right: -200px;
+    top: -100px;
 }
 
 #design-by .design-container .info-section {
