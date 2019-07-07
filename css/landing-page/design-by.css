@@ -4,15 +4,32 @@
 }
 
 #design-by .design-container {
-    /* position: absolute; */
+    background: #6066F2;
+    position: relative;
+    overflow: hidden;
+}
+
+#design-by .design-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#design-by .design-container .bg-image {
+    position: absolute;
+    width: 500px;
+    z-index: 0;
+    opacity: .3;
+    right: 0;
 }
 
 #design-by .design-container .info-section {
-    background: #6066F2;
     width: 40%;
     display: inline-block;
     float: left;
     padding: 45px;
+    position: relative;
+    z-index: 2;
 }
 
 #design-by .design-container .info-section h5 {
@@ -29,14 +46,14 @@
 }
 
 #design-by .design-container .info-section .info-list {
-
+    margin-bottom: 4rem;
 }
 
 #design-by .design-container .info-section .info-list li {
     list-style: none;
     color: white;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 15px;
     vertical-align: top;
 }
@@ -54,8 +71,20 @@
 
 #design-by .design-container .info-section .info-list li .circle .fas{
     position: absolute;
-    top: 3px;
+    top: 6px;
+    left: 5px;
 
+}
+
+#design-by .design-container .info-section .white-btn {
+    background: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 20px 65px;
+    color: #6066F2;
+    font-weight: 700;
+    font-size: 1rem;
+    display:inline-block;
 }
 
 #design-by .design-container .icons-section {
@@ -63,4 +92,6 @@
     background: white;
     display: inline-block;
     float: left;
+    position: relative;
+    z-index: 2;
 }
