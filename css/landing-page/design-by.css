@@ -9,6 +9,12 @@
     overflow: hidden;
 }
 
+#design-by .design-container .bg-container{
+    background: #6066F2;
+    position: relative;
+    overflow: hidden;
+}
+
 #design-by .design-container:after {
     content: "";
     display: table;
