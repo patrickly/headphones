@@ -14,7 +14,7 @@
     background: #6066F2;
     position: relative;
     overflow: hidden;
-    padding: 45px;
+    padding: 45.5px;
 }
 
 #design-by .design-container:after {
@@ -129,7 +129,7 @@
 
 #design-by .design-container .icons-section .icon-box{
     width: 50%;
-    height: 230px;
+    height: 223px;
     display: inline-block;
     float: left;
     text-align: center;
