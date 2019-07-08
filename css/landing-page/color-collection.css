@@ -1,8 +1,8 @@
 #color-collection{
-    padding: 100px;
+    padding: 0 0 100px;
 }
 
-#color-collection:after {
+#color-collection .container:after {
     content: "";
     display: table;
     clear: both;
@@ -26,6 +26,7 @@
     padding: 12px 20px;
     display: inline-block;
     border-radius: 45px;
+    margin-top: 150px;
     margin-bottom: 40px;
 }
 
@@ -140,8 +141,9 @@ margin-right: 0;
 
 #color-collection .right-side .color-slider{ 
 width: 20px;
-height: 400px;
+height: 640px;
 border-radius: 40px;
+position: relative;
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,ffc132+15,ffc132+15,ffff32+27,55ff32+40,29db5e+56,3037ff+76,b728ff+83,ff0004+100 */
 background: #ff3232; /* Old browsers */
 background: -moz-linear-gradient(top,  #ff3232 0%, #ffc132 15%, #ffc132 15%, #ffff32 27%, #55ff32 40%, #29db5e 56%, #3037ff 76%, #b728ff 83%, #ff0004 100%); /* FF3.6-15 */
@@ -151,7 +153,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
 }
 
 
-
+#color-collection .right-side .color-slider .picker{ 
+    width: 20px;
+    height: 20px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    background: #FEA83B;
+    box-sizing: content-box;
+    position: absolute;
+    top: 200px;
+    left: -10px;
+}
 
 #color-collection .right-side .col-1{ 
     float: left;
