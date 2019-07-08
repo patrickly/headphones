@@ -82,11 +82,18 @@ margin-right: 0;
     float: left;
 }
 
+#color-collection .right-side:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #color-collection .right-side .info-box{ 
     background: white;
     padding: 40px 20px;
     display: inline-block;
     max-width: 290px;
+    width: 100%;
     text-align: center;
 }
 
@@ -128,4 +135,29 @@ margin-right: 0;
     height: 2px;
     width: 50px;
     display: inline-block;
+}
+
+
+#color-collection .right-side .color-slider{ 
+width: 20px;
+height: 400px;
+border-radius: 40px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,ffc132+15,ffc132+15,ffff32+27,55ff32+40,29db5e+56,3037ff+76,b728ff+83,ff0004+100 */
+background: #ff3232; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff3232 0%, #ffc132 15%, #ffc132 15%, #ffff32 27%, #55ff32 40%, #29db5e 56%, #3037ff 76%, #b728ff 83%, #ff0004 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff3232 0%,#ffc132 15%,#ffc132 15%,#ffff32 27%,#55ff32 40%,#29db5e 56%,#3037ff 76%,#b728ff 83%,#ff0004 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff3232 0%,#ffc132 15%,#ffc132 15%,#ffff32 27%,#55ff32 40%,#29db5e 56%,#3037ff 76%,#b728ff 83%,#ff0004 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#ff0004',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+#color-collection .right-side .col-1{ 
+    float: left;
+    width: 80%;
+}
+#color-collection .right-side .col-2{ 
+    float: right;
+    width: 20%;
 }
