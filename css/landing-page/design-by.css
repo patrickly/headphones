@@ -67,7 +67,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 13.29px;
     vertical-align: top;
 }
 
@@ -108,5 +108,39 @@
     display: inline-block;
     float: left;
     position: relative;
-    z-index: 2;
+}
+#design-by .design-container .icons-section .refresh-circle{
+    position: absolute;
+    left: 44%;
+    top: 42%;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+}
+
+#design-by .design-container .icons-section .refresh-circle .fas{
+    position: relative;
+    color: #FEA83B;
+    font-size: 2.5rem;
+    top: 20px;
+    left: 19px;
+}
+
+#design-by .design-container .icons-section .icon-box{
+    width: 50%;
+    height: 230px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    color: #6066F2;
+    font-size: 1.3rem;
+}
+
+#design-by .design-container .icons-section .icon-box .fas, 
+#design-by .design-container .icons-section .icon-box .far {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 64px;
 }
