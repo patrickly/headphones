@@ -21,17 +21,12 @@
     float: left;
 }
 
-#color-collection .right-side{ 
-    width:40%;
-    display: inline-block;
-    float: left;
-}
-
 #color-collection .right-side .swatch-area{ 
     background: white;
-    padding: 20px;
+    padding: 12px 20px;
     display: inline-block;
     border-radius: 45px;
+    margin-bottom: 40px;
 }
 
 #color-collection .right-side .swatch-area:after {
@@ -79,4 +74,58 @@ background: -webkit-linear-gradient(top,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db
 background: linear-gradient(to bottom,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* IE6-9 */
 margin-right: 0;
+}
+
+#color-collection .right-side{ 
+    width:40%;
+    display: inline-block;
+    float: left;
+}
+
+#color-collection .right-side .info-box{ 
+    background: white;
+    padding: 40px 20px;
+    display: inline-block;
+    max-width: 290px;
+    text-align: center;
+}
+
+#color-collection .right-side .info-box h2{ 
+    font-size: 2rem;
+}
+
+#color-collection .right-side .info-box h2 span{ 
+    display: block;
+    text-align: center;
+}
+#color-collection .right-side .info-box h2 span.orange{ 
+    color: #FEA83B;
+    font-weight: 100;
+}
+#color-collection .right-side .info-box h2 span.blue{ 
+    color: #6066F2;
+
+}
+#color-collection .right-side .info-box h2 span.purple{ 
+    color: #b286f8;
+    font-weight: 100;
+}
+#color-collection .right-side .info-box p{ 
+    color: #aaacaf;
+    font-size: .8rem;
+    margin: 40px 0;
+}
+#color-collection .right-side .info-box a{ 
+    color: #6066F2;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    text-decoration: none;
+    display: block;
+}
+#color-collection .right-side .info-box .line{ 
+    background: #b286f8;
+    height: 2px;
+    width: 50px;
+    display: inline-block;
 }
