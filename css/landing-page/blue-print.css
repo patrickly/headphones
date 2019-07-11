@@ -1,5 +1,10 @@
 #blue-print{
-    background: #6066F2;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#362972+0,2f2972+27,2f2972+33,6066f2+100 */
+    background: #362972; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #362972 0%, #2f2972 27%, #2f2972 33%, #6066f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #362972 0%,#2f2972 27%,#2f2972 33%,#6066f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #362972 0%,#2f2972 27%,#2f2972 33%,#6066f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#362972', endColorstr='#6066f2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     padding: 170px 0;
     color: white;
 }
@@ -30,6 +35,12 @@
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 70px;
+    line-height: 1.2;
+}
+
+
+#blue-print .right-side .info-box {
+    padding: 0 0 80px;
 }
 
 #blue-print .right-side .info-box:after {
@@ -48,7 +59,7 @@
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 5px solid white;
     position: relative;
 }
 
@@ -59,14 +70,45 @@
     border-radius: 50%;
     border: 2px dashed white;
     margin: 0 auto;
-    background: red;
     position: absolute;
-    top: 14px;
-    left: 13px;
+    top: 10px;
+    left: 10px;
 }
 
+#blue-print .right-side .info-box .col-1 .icon-container .fab,
+#blue-print .right-side .info-box .col-1 .icon-container .fas {
+    font-size: 4.5rem;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
 #blue-print .right-side .info-box .col-2{
     width: 60%;
     float: left;
 }
 
+#blue-print .right-side .info-box .col-2 h3{
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 29px;
+}
+
+#blue-print .right-side .info-box .col-2 p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    
+}
+  
+
+#blue-print .right-side .info-box .col-2 p{
+    font-size: 1rem;
+    
+}
+
+#blue-print .right-side .info-box .col-2 a{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #FEA83B;
+    text-decoration: none;
+    text-transform: uppercase;
+}
