@@ -125,5 +125,50 @@
 
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
+  #top-jumbo .left-side {
+    width: 100%;
+  }
 
+  #top-jumbo .left-side .large-number {
+    font-size: 250px;
+    font-weight: 700;
+    opacity: 0.1;
+    color: #4c44c1;
+    position: relative;
+    left: -20px;
+    top: 0;
+    z-index: 1;
+  }
+
+  #top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area {
+width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float:left;
+    width: 15%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 12px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background: #6066F2;
+    padding: 20px 0;
+    color: white;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
 }
