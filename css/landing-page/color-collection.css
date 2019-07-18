@@ -170,7 +170,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
     width: 80%;
 }
 #color-collection .right-side .col-2{ 
-    float: right;
+    float: left;
     width: 20%;
 }
 
@@ -186,5 +186,57 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
 
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
+    #color-collection .left-side {
+        width: 100%;
+        text-align: center;
+    }
 
+    #color-collection .left-side img {
+        float: none;
+    }
+
+    #color-collection .right-side {
+        width: 100%;
+        padding: 100px 0;
+    }
+
+    #color-collection .right-side .col-1 {
+        float: left;
+        width: 80%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #color-collection .right-side .col-2 {
+        float: left;
+        width: 20%;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    #color-collection .right-side .swatch-area {
+        background: white;
+        padding: 12px 20px;
+        display: inline-block;
+        border-radius: 45px;
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+    
+    #color-collection .right-side .swatch-area .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    #color-collection .right-side .info-box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #color-collection .right-side .color-slider {
+        width: 20px;
+        height: 500px;
+        border-radius: 40px;
+        position: relative;
+    }
 }
