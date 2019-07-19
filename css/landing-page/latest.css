@@ -40,7 +40,8 @@
     font-size: 3rem;
     background: #6066f2;
     color: white;
-    border: 1px solid white;
+    border: 1px solid #6066f2;
+    border-right: none;
 }
 
 
@@ -57,6 +58,7 @@
     background:white;
     color: #cecece;
     border: 1px solid #cecece;
+    border-left: none;
 }
 
 #latest .body {
@@ -372,6 +374,15 @@
         position: static;
         margin: 50px auto;
         top: 0;
+    }
+
+    
+    #latest .header .directions .move-left {
+        padding: 20px 63px;
+    }
+
+    #latest .header .directions .move-right {
+        padding: 20px 63px;
     }
 
     #latest .body .column {

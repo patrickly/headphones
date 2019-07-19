@@ -55,7 +55,6 @@ input::placeholder{
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
     body{
-        background: red;
         width: 100%;
     }
 }

@@ -237,8 +237,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
     }
     
     #color-collection .right-side .swatch-area .circle {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
 
     #color-collection .right-side .info-box {
