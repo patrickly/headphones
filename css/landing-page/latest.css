@@ -379,10 +379,13 @@
         margin-bottom: 150px;
     }
 
-    /* #latest .body .column:nth-child(2) .bg-square { 
-        position: relative;
+
+    #latest .body .column:nth-child(1) .bg-square,
+    #latest .body .column:nth-child(2) .bg-square,
+    #latest .body .column:nth-child(3) .bg-square { 
         transform: scale(0.8);
-    } */
+    }
+
 
     #latest .footer .info-box .input-area .far {
         font-size: 2rem;
