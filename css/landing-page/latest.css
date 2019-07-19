@@ -307,8 +307,7 @@
     }
 
     #latest .footer .info-box form {
-        width: 80%;
-        /*$$$*/
+        /* width: 80%; */
     }
 
     #latest .footer .info-box .input-area .far {
@@ -397,6 +396,9 @@
         transform: scale(0.8);
     }
 
+    #latest .footer {
+        margin-top: -230px;
+    }
 
     #latest .footer .info-box .input-area .far {
         font-size: 2rem;
